@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(to right, #1d3557, #457b9d);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.card {
+  background-color: #f8f9fa;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+h2 {
+  color: #1d3557;
+}
+
+#mensagem {
+  font-weight: bold;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
